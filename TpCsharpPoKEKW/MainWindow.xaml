@@ -12,7 +12,20 @@
         Title="MainWindow" Height="450" Width="800">
     <!--   xmlns:view="clr-namespace:TpCsharpPoKEKW.MVVM.View"
  xmlns:vm="clr-namespace:TpCsharpPoKEKW.MVVM.ViewModel" link les dossier   -->
-    <Grid>
 
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type vm:MainViewVM}">
+            <view:MainView/>
+        </DataTemplate>
+        <!--   
+        A ajoute a chaque nouvelle viw posssibme 
+        <DataTemplate DataType="{x:Type vm:MainViewVM}">
+            <view:MainView/>
+        </DataTemplate> 
+        -->
+        
+    </Window.Resources>
+    <Grid>
+        <ContentControl Content="{Binding CurentVM}"
     </Grid>
 </Window>

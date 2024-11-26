@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using TpCsharpPoKEKW.MVVM.ViewModel;
 
 namespace TpCsharpPoKEKW
 {
@@ -16,9 +17,12 @@ namespace TpCsharpPoKEKW
     /// </summary>
     public partial class MainWindow : Window
     {
+        MainWindowVM MainWindowVM { get; set; }
         public MainWindow()
         {
             InitializeComponent();
+            MainWindowVM = new MainWindowVM();
+            DataContext = MainWindowVM;
         }
     }
 }

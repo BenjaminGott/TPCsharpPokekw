@@ -9,6 +9,6 @@
       Title="MainView">
 
     <Grid>
-        
+        <Button Margin="506,154,93,245">COUCOU</Button>
     </Grid>
 </Page>
