@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace TpCsharpPoKEKW.MVVM.ViewModel
 {
-    /*Commande just pour la main View  --> le body (en html)*/
-
-    internal class MainViewVM : BaseVM
+    /*Commande quyi marche avec tout les Vm*/
+    internal class BaseVM : ObservableObject
     {
+
     }
 }
