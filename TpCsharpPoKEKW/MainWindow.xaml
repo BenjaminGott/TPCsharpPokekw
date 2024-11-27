@@ -26,6 +26,6 @@
         
     </Window.Resources>
     <Grid>
-        <ContentControl Content="{Binding CurentVM}"
+        <ContentControl Content="{Binding CurentVM}"/>
     </Grid>
 </Window>

@@ -18,7 +18,7 @@ namespace TpCsharpPoKEKW.MVVM.View
     /// <summary>
     /// Logique d'interaction pour MainView.xaml
     /// </summary>
-    public partial class MainView : Page
+    public partial class MainView : UserControl
     {
         public MainView()
         {

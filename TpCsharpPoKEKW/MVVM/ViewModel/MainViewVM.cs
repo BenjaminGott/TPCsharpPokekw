@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TpCsharpPoKEKW.MVVM.ViewModel
 {
-    /*Commande just pour la main View  --> le body (en html)*/
+    /*Commande just pour la main View  -- le body (en html)*/
 
     internal class MainViewVM : BaseVM
     {
