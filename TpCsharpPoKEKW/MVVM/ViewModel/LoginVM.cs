@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CommunityToolkit.Mvvm.ComponentModel;
+using System.Windows;
+using System.Windows.Input;
+using CommunityToolkit.Mvvm.Input;
 
 namespace TpCsharpPoKEKW.MVVM.ViewModel
 {
-    /*Commande quyi marche avec tout les Vm*/
-    public class BaseVM : ObservableObject
+    public class LoginVM : BaseVM
     {
-
     }
 }

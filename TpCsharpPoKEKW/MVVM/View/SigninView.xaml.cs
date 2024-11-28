@@ -16,15 +16,13 @@ using System.Windows.Shapes;
 namespace TpCsharpPoKEKW.MVVM.View
 {
     /// <summary>
-    /// Logique d'interaction pour MainView.xaml
+    /// Logique d'interaction pour SigninView.xaml
     /// </summary>
-    public partial class MainView : UserControl
+    public partial class SigninView : UserControl
     {
-        public MainView()
+        public SigninView()
         {
             InitializeComponent();
         }
-
-
     }
 }

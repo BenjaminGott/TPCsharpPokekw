@@ -25,13 +25,13 @@ public partial class ExerciceMonsterContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=BENJAMIN-PC\\SQLEXPRESS;Database=ExerciceMonster;Trusted_Connection=True; TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Server=Benjamin-pc\\SQLEXPRESS;Database=ExerciceMonster;Trusted_Connection=True; TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Login>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Login__3214EC27D3C51CBF");
+            entity.HasKey(e => e.Id).HasName("PK__Login__3214EC27066D9DCD");
 
             entity.ToTable("Login");
 
@@ -42,11 +42,14 @@ public partial class ExerciceMonsterContext : DbContext
 
         modelBuilder.Entity<Monster>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Monster__3214EC27CAB06DEF");
+            entity.HasKey(e => e.Id).HasName("PK__Monster__3214EC27918901D4");
 
             entity.ToTable("Monster");
 
             entity.Property(e => e.Id).HasColumnName("ID");
+            entity.Property(e => e.ImageUrl)
+                .HasMaxLength(255)
+                .HasColumnName("ImageURL");
             entity.Property(e => e.Name).HasMaxLength(50);
 
             entity.HasMany(d => d.Spells).WithMany(p => p.Monsters)
@@ -62,7 +65,7 @@ public partial class ExerciceMonsterContext : DbContext
                         .HasConstraintName("FK__MonsterSp__Monst__440B1D61"),
                     j =>
                     {
-                        j.HasKey("MonsterId", "SpellId").HasName("PK__MonsterS__293EA4DFD8D4EFD8");
+                        j.HasKey("MonsterId", "SpellId").HasName("PK__MonsterS__293EA4DF0D3D3755");
                         j.ToTable("MonsterSpell");
                         j.IndexerProperty<int>("MonsterId").HasColumnName("MonsterID");
                         j.IndexerProperty<int>("SpellId").HasColumnName("SpellID");
@@ -71,7 +74,7 @@ public partial class ExerciceMonsterContext : DbContext
 
         modelBuilder.Entity<Player>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Player__3214EC27423785B6");
+            entity.HasKey(e => e.Id).HasName("PK__Player__3214EC272196F4AB");
 
             entity.ToTable("Player");
 
@@ -96,7 +99,7 @@ public partial class ExerciceMonsterContext : DbContext
                         .HasConstraintName("FK__PlayerMon__Playe__403A8C7D"),
                     j =>
                     {
-                        j.HasKey("PlayerId", "MonsterId").HasName("PK__PlayerMo__378F20A4ADCB5A99");
+                        j.HasKey("PlayerId", "MonsterId").HasName("PK__PlayerMo__378F20A43BD6DE0A");
                         j.ToTable("PlayerMonster");
                         j.IndexerProperty<int>("PlayerId").HasColumnName("PlayerID");
                         j.IndexerProperty<int>("MonsterId").HasColumnName("MonsterID");
@@ -105,7 +108,7 @@ public partial class ExerciceMonsterContext : DbContext
 
         modelBuilder.Entity<Spell>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Spell__3214EC27C4E26D1B");
+            entity.HasKey(e => e.Id).HasName("PK__Spell__3214EC2754D90947");
 
             entity.ToTable("Spell");
 

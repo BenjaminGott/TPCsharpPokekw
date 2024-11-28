@@ -17,6 +17,13 @@
         <DataTemplate DataType="{x:Type vm:MainViewVM}">
             <view:MainView/>
         </DataTemplate>
+
+        <DataTemplate DataType="{x:Type vm:LoginVM}">
+            <view:LoginView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:SigninVM}">
+            <view:SigninView/>
+        </DataTemplate>
         <!--   
         A ajoute a chaque nouvelle viw posssibme 
         <DataTemplate DataType="{x:Type vm:MainViewVM}">
@@ -26,6 +33,6 @@
         
     </Window.Resources>
     <Grid>
-        <ContentControl Content="{Binding CurentVM}"/>
+        <ContentControl Content="{Binding CurrentVM}"/>
     </Grid>
 </Window>
