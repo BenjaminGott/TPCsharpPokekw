@@ -11,5 +11,21 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
 {
     public class LoginVM : BaseVM
     {
+        public ICommand HandleRequestLog { get; set; }
+
+        public string Email { get; set; }
+        public string Password { get; set; }
+
+        public LoginVM()
+        {
+            HandleRequestLog = new RelayCommand(Log);
+        }
+
+        
+        public void Log()
+        {
+           
+            MessageBox.Show($"E-mail : {Email}\nMot de passe : {Password}");
+        }
     }
 }

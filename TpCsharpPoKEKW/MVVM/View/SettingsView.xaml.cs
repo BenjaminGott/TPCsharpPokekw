@@ -12,26 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using TpCsharpPoKEKW.MVVM.ViewModel;
 
 namespace TpCsharpPoKEKW.MVVM.View
 {
     /// <summary>
-    /// Logique d'interaction pour LoginView.xaml
+    /// Logique d'interaction pour SettingsView.xaml
     /// </summary>
-    public partial class LoginView : UserControl
+    public partial class SettingsView : UserControl
     {
-        public LoginView()
+        public SettingsView()
         {
             InitializeComponent();
-        }
-        private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
-        {
-            if (DataContext is LoginVM vm)
-            {
-                var passwordBox = sender as PasswordBox;
-                vm.Password = passwordBox?.Password;
-            }
         }
     }
 }

@@ -7,12 +7,12 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
 
     public class MainViewVM : BaseVM
     {
-        public ICommand HandleRequestSignIn { get; set; }
+        public ICommand HandleRequestSettings { get; set; }
         public ICommand HandleRequestLogIn { get; set; }
         public MainViewVM() 
         {
             HandleRequestLogIn = new RelayCommand(Login);
-            HandleRequestSignIn = new RelayCommand(SignIn);
+            HandleRequestSettings = new RelayCommand(Settings);
         }
 
         public void Login()
@@ -20,9 +20,9 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
             MainWindowVM.OnRequestVMChange?.Invoke(new LoginVM());
         }
 
-        public void SignIn()
+        public void Settings()
         {
-            MainWindowVM.OnRequestVMChange?.Invoke(new SigninVM());
+            MainWindowVM.OnRequestVMChange?.Invoke(new SettingsVM());
         }
     }
 }

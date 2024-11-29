@@ -14,8 +14,8 @@
              >
     <Grid>
         <StackPanel VerticalAlignment="Center" >
-            <Button Content="LogIn" Command="{Binding  HandleRequestLogIn}" ></Button>
-        <Button Content="SignIn" Command="{Binding  HandleRequestSignIn}"></Button>
+        <Button Content="Settings" Command="{Binding  HandleRequestSettings}" Width="200"></Button>
+            <Button Content="LogIn" Command="{Binding  HandleRequestLogIn}" Width="200" ></Button>
         </StackPanel>
     </Grid>
 </UserControl>
