@@ -24,6 +24,9 @@
         <DataTemplate DataType="{x:Type vm:SettingsVM}">
             <view:SettingsView/>
         </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:SigninVM}">
+            <view:SigninView/>
+        </DataTemplate>
         <!--   
         A ajoute a chaque nouvelle viw posssibme 
         <DataTemplate DataType="{x:Type vm:MainViewVM}">

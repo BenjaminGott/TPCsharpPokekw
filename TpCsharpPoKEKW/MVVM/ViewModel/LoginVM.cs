@@ -24,8 +24,7 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
         
         public void Log()
         {
-           
-            MessageBox.Show($"E-mail : {Email}\nMot de passe : {Password}");
+            MessageBox.Show($"E-mail : {Email}\n Mot de passecc : {Password}");
         }
     }
 }

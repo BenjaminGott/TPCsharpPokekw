@@ -10,6 +10,10 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
     /*Commande quyi marche avec tout les Vm*/
     public class BaseVM : ObservableObject
     {
-
+        public void BackHome( )
+        {
+            MainWindowVM.OnRequestVMChange?.Invoke(new MainViewVM()); 
+        } 
+       
     }
 }

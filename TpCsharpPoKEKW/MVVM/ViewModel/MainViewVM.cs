@@ -9,12 +9,18 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
     {
         public ICommand HandleRequestSettings { get; set; }
         public ICommand HandleRequestLogIn { get; set; }
+        public ICommand HandleRequestSignIn { get; set; }
         public MainViewVM() 
         {
             HandleRequestLogIn = new RelayCommand(Login);
             HandleRequestSettings = new RelayCommand(Settings);
+            HandleRequestSignIn = new RelayCommand(Sign);
         }
 
+        public void Sign()
+        {
+            MainWindowVM.OnRequestVMChange?.Invoke(new SigninVM());
+        }
         public void Login()
         {
             MainWindowVM.OnRequestVMChange?.Invoke(new LoginVM());

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using TpCsharpPoKEKW.MVVM.ViewModel;
 
 namespace TpCsharpPoKEKW.MVVM.View
 {
@@ -23,6 +24,16 @@ namespace TpCsharpPoKEKW.MVVM.View
         public SigninView()
         {
             InitializeComponent();
+        }
+        private void PasswordBox_PasswordChangedSign(object sender, RoutedEventArgs e)
+        {
+            if (DataContext is SigninVM vm)
+            {
+                {
+                    var passwordBox = sender as PasswordBox;
+                    vm.Password = passwordBox?.Password;
+                }
+            }
         }
     }
 }
