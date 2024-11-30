@@ -25,7 +25,6 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
 
         public void Sign()
         {
-            DbLogic.Adduser(Email, Password);
             MessageBox.Show(DbLogic.Adduser(Email, Password));
             BackHome();
         }

@@ -1,26 +1,37 @@
-﻿using System.Windows.Input;
+﻿using System.Globalization;
+using System.Windows.Data;
+using System.Windows;
+using System.Windows.Input;
 using CommunityToolkit.Mvvm.Input;
+using TpCsharpPoKEKW.Model;
 
 namespace TpCsharpPoKEKW.MVVM.ViewModel
 {
-    /*Commande just pour la main View  -- le body (en html)*/
-
     public class MainViewVM : BaseVM
     {
         public ICommand HandleRequestSettings { get; set; }
         public ICommand HandleRequestLogIn { get; set; }
         public ICommand HandleRequestSignIn { get; set; }
-        public MainViewVM() 
+        public ICommand HandleRequestLogOut { get; set; }
+        public ICommand HandleRequestPlay { get; set; }
+
+        public static string? LoggedInUsername => Session.LoggedInUsername;
+        public static bool IsLoggedIn => Session.IsLoggedIn;
+
+        public MainViewVM()
         {
             HandleRequestLogIn = new RelayCommand(Login);
             HandleRequestSettings = new RelayCommand(Settings);
             HandleRequestSignIn = new RelayCommand(Sign);
+            HandleRequestLogOut = new RelayCommand(LogOut);
+            HandleRequestPlay = new RelayCommand(Play);
         }
 
         public void Sign()
         {
             MainWindowVM.OnRequestVMChange?.Invoke(new SigninVM());
         }
+
         public void Login()
         {
             MainWindowVM.OnRequestVMChange?.Invoke(new LoginVM());
@@ -29,6 +40,12 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
         public void Settings()
         {
             MainWindowVM.OnRequestVMChange?.Invoke(new SettingsVM());
+        }
+
+
+        public void Play()
+        {
+            // Logique pour commencer à jouer
         }
     }
 }

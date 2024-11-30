@@ -4,6 +4,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using static TpCsharpPoKEKW.MVVM.ViewModel.BaseVM;
 
 namespace TpCsharpPoKEKW.Model
 {
@@ -12,27 +13,25 @@ namespace TpCsharpPoKEKW.Model
     {
         public static string Adduser(string username, string password)
         {
-            using (var context = new ExerciceMonsterContext())
+            using var context = new ExerciceMonsterContext();
+
+            if (context.Logins.Any(l => l.Username == username))
             {
-               
-
-
-                string hashedPassword = HashPassword(password);
-
-
-                var login = new Login
-                {
-                    Username = username,
-                    PasswordHash = hashedPassword
-                };
-
-                context.Logins.Add(login);
-                context.SaveChanges();
-
-                return "Utilisateur et joueur ajoutés avec succès !";
-
-
+                return "Le nom d'utilisateur existe déjà !";
             }
+
+            string hashedPassword = HashPassword(password);
+
+            var login = new Login
+            {
+                Username = username,
+                PasswordHash = hashedPassword
+            };
+
+            context.Logins.Add(login);
+            context.SaveChanges();
+
+            return "Utilisateur et joueur ajoutés avec succès !";
         }
        public static string FirstAdduser()
         {
@@ -67,8 +66,35 @@ namespace TpCsharpPoKEKW.Model
                 return Convert.ToBase64String(hashBytes);
             }
         }
+        public static string LoginUser(string username, string password)
+        {
+            using (var context = new ExerciceMonsterContext())
+            {
+          
+                var login = context.Logins.FirstOrDefault(l => l.Username == username);
+
+                if (login == null)
+                {
+                    return "Nom d'utilisateur incorrect.";
+                }
+
+                string hashedPassword = HashPassword(password);
+
+                if (login.PasswordHash != hashedPassword)
+                {
+                    return "Mot de passe incorrect.";
+                }
+
+                Session.IsLoggedIn = true;
+                Session.LoggedInUsername = login.Username;
+
+                return $"Connexion réussie, bienvenue {login.Username} !";
+            }
+        }
 
 
     }
+
+
 }
-}
+

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
 using CommunityToolkit.Mvvm.Input;
+using TpCsharpPoKEKW.Model;
 
 namespace TpCsharpPoKEKW.MVVM.ViewModel
 {
@@ -24,7 +25,9 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
         
         public void Log()
         {
-            MessageBox.Show($"E-mail : {Email}\n Mot de passecc : {Password}");
+            MessageBox.Show(DbLogic.LoginUser(Email, Password));
+            BackHome();
+
         }
     }
 }
