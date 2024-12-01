@@ -28,13 +28,29 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
         }
 
         public void Sign()
+            
         {
-            MainWindowVM.OnRequestVMChange?.Invoke(new SigninVM());
+            if (ExerciceMonsterContext.SqlDBLink == null)
+            {
+                MessageBox.Show("No database connection go to settings");
+            }
+            else
+            {
+                MainWindowVM.OnRequestVMChange?.Invoke(new SigninVM());
+            }
         }
 
         public void Login()
         {
-            MainWindowVM.OnRequestVMChange?.Invoke(new LoginVM());
+            if (ExerciceMonsterContext.SqlDBLink == null)
+            {
+                MessageBox.Show("No database connection go to settings");
+            }
+            else
+            {
+                MainWindowVM.OnRequestVMChange?.Invoke(new LoginVM());
+            }
+
         }
 
         public void Settings()

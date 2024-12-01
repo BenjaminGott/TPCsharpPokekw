@@ -51,7 +51,7 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
         {
             Session.IsLoggedIn = false;
             Session.LoggedInUsername = null;
-            MainWindowVM.OnRequestVMChange?.Invoke(new SettingsVM());
+            MainWindowVM.OnRequestVMChange?.Invoke(new MainViewVM());
             BackHome();
         }
     }
