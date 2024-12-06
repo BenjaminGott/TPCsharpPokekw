@@ -9,6 +9,7 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
 {
     public class MainViewVM : BaseVM
     {
+
         public ICommand HandleRequestSettings { get; set; }
         public ICommand HandleRequestLogIn { get; set; }
         public ICommand HandleRequestSignIn { get; set; }

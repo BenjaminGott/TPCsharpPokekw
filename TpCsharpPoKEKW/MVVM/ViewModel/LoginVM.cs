@@ -27,6 +27,7 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
         {
             MessageBox.Show(DbLogic.LoginUser(Email, Password));
             BackHome();
+            Console.WriteLine(DbLogic.GetSpells());
 
         }
     }

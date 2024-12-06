@@ -32,7 +32,7 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
         {
             ExerciceMonsterContext.SqlDBLink = dbLink;
             MessageBox.Show(DbLogic.FirstAdduser());
-            MessageBox.Show(DbLogic.InitializeMonstersAndSpell());
+            MessageBox.Show(DbLogic.InitializeMonsters());
             BackHome();
 
         }

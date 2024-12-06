@@ -4,6 +4,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Data.SqlClient;
 using static TpCsharpPoKEKW.MVVM.ViewModel.BaseVM;
 
 namespace TpCsharpPoKEKW.Model
@@ -59,7 +60,7 @@ namespace TpCsharpPoKEKW.Model
                 var spell1 = new Spell { Name = "Fireball", Damage = 50, Description = "A blazing fireball that burns enemies." };
                 var spell2 = new Spell { Name = "Ice Shard", Damage = 40, Description = "A sharp shard of ice that pierces enemies." };
                 var spell3 = new Spell { Name = "Thunder Strike", Damage = 60, Description = "A powerful lightning strike." };
-                var spell4 = new Spell { Name = "Heal", Damage = -30, Description = "Restores health instead of causing damage." };
+                var spell4 = new Spell { Name = "Aniheal", Damage = 30, Description = "Don't Restores health instead, causing damage." };
                 var spell5 = new Spell { Name = "Poison Dart", Damage = 35, Description = "A toxic dart that poisons enemies over time." };
                 var spell6 = new Spell { Name = "Earthquake", Damage = 70, Description = "A tremor that shakes the ground and damages all enemies." };
                 var spell7 = new Spell { Name = "Wind Blade", Damage = 45, Description = "A sharp blade of wind that cuts through enemies." };
@@ -115,26 +116,26 @@ namespace TpCsharpPoKEKW.Model
 
                 var monsters = new List<Monster>
                 {
-                    new Monster { Name = "Dragon", Health = 300, ImageUrl = imageUrls[0], Spells = new List<Spell> { spell18, spell1, spell24 } },
-                    new Monster { Name = "Phoenix", Health = 250, ImageUrl = imageUrls[1], Spells = new List<Spell> { spell21, spell2, spell23 } },
-                    new Monster { Name = "Cyclops", Health = 200, ImageUrl = imageUrls[2], Spells = new List<Spell> { spell17, spell5, spell22 } },
-                    new Monster { Name = "Troll", Health = 180, ImageUrl = imageUrls[3], Spells = new List<Spell> { spell16, spell19, spell4 } },
-                    new Monster { Name = "Golem", Health = 350, ImageUrl = imageUrls[4], Spells = new List<Spell> { spell19, spell3, spell20 } },
-                    new Monster { Name = "Kraken", Health = 400, ImageUrl = imageUrls[5], Spells = new List<Spell> { spell23, spell5, spell22 } },
-                    new Monster { Name = "Basilisk", Health = 220, ImageUrl = imageUrls[6], Spells = new List<Spell> { spell16, spell2, spell3 } },
-                    new Monster { Name = "Griffin", Health = 270, ImageUrl = imageUrls[7], Spells = new List<Spell> { spell17, spell20, spell21 } },
-                    new Monster { Name = "Minotaur", Health = 240, ImageUrl = imageUrls[8], Spells = new List<Spell> { spell22, spell4, spell24 } },
-                    new Monster { Name = "Hydra", Health = 380, ImageUrl = imageUrls[9], Spells = new List<Spell> { spell25, spell2, spell18 } },
-                    new Monster { Name = "Wraith", Health = 150, ImageUrl = imageUrls[10], Spells = new List<Spell> { spell20, spell16, spell25 } },
-                    new Monster { Name = "Lich", Health = 230, ImageUrl = imageUrls[11], Spells = new List<Spell> { spell24, spell19, spell3 } },
-                    new Monster { Name = "Chimera", Health = 310, ImageUrl = imageUrls[12], Spells = new List<Spell> { spell18, spell21, spell2 } },
-                    new Monster { Name = "Dark Elf", Health = 200, ImageUrl = imageUrls[13], Spells = new List<Spell> { spell16, spell20, spell5 } },
-                    new Monster { Name = "Werewolf", Health = 250, ImageUrl = imageUrls[14], Spells = new List<Spell> { spell17, spell4, spell22 } },
-                    new Monster { Name = "Zombie King", Health = 280, ImageUrl = imageUrls[15], Spells = new List<Spell> { spell23, spell24, spell3 } },
-                    new Monster { Name = "Specter", Health = 180, ImageUrl = imageUrls[16], Spells = new List<Spell> { spell20, spell25, spell2 } },
-                    new Monster { Name = "Djinn", Health = 270, ImageUrl = imageUrls[17], Spells = new List<Spell> { spell18, spell23, spell21 } },
-                    new Monster { Name = "Harpy", Health = 220, ImageUrl = imageUrls[18], Spells = new List<Spell> { spell17, spell16, spell1 } },
-                    new Monster { Name = "Necromancer", Health = 300, ImageUrl = imageUrls[19], Spells = new List<Spell> { spell24, spell25, spell20 } }
+                new Monster { Name = "Dragon", Health = 300, ImageUrl = imageUrls[0], Spells = new List<Spell> { spell18, spell1, spell24, spell14 } },
+                new Monster { Name = "Phoenix", Health = 250, ImageUrl = imageUrls[1], Spells = new List<Spell> { spell21, spell2, spell23, spell10 } },
+                new Monster { Name = "Cyclops", Health = 200, ImageUrl = imageUrls[2], Spells = new List<Spell> { spell17, spell5, spell22, spell8 } },
+                new Monster { Name = "Troll", Health = 180, ImageUrl = imageUrls[3], Spells = new List<Spell> { spell16, spell19, spell4, spell3 } },
+                new Monster { Name = "Golem", Health = 350, ImageUrl = imageUrls[4], Spells = new List<Spell> { spell19, spell3, spell20, spell13 } },
+                new Monster { Name = "Kraken", Health = 400, ImageUrl = imageUrls[5], Spells = new List<Spell> { spell23, spell5, spell22, spell11 } },
+                new Monster { Name = "Basilisk", Health = 220, ImageUrl = imageUrls[6], Spells = new List<Spell> { spell16, spell2, spell3, spell14 } },
+                new Monster { Name = "Griffin", Health = 270, ImageUrl = imageUrls[7], Spells = new List<Spell> { spell17, spell20, spell21, spell7 } },
+                new Monster { Name = "Minotaur", Health = 240, ImageUrl = imageUrls[8], Spells = new List<Spell> { spell22, spell4, spell24, spell6 } },
+                new Monster { Name = "Hydra", Health = 380, ImageUrl = imageUrls[9], Spells = new List<Spell> { spell25, spell2, spell18, spell12 } },
+                new Monster { Name = "Wraith", Health = 150, ImageUrl = imageUrls[10], Spells = new List<Spell> { spell20, spell16, spell25, spell9 } },
+                new Monster { Name = "Lich", Health = 230, ImageUrl = imageUrls[11], Spells = new List<Spell> { spell24, spell19, spell3, spell8 } },
+                new Monster { Name = "Chimera", Health = 310, ImageUrl = imageUrls[12], Spells = new List<Spell> { spell18, spell21, spell2, spell13 } },
+                new Monster { Name = "Dark Elf", Health = 200, ImageUrl = imageUrls[13], Spells = new List<Spell> { spell16, spell20, spell5, spell10 } },
+                new Monster { Name = "Werewolf", Health = 250, ImageUrl = imageUrls[14], Spells = new List<Spell> { spell17, spell4, spell22, spell15 } },
+                new Monster { Name = "Zombie King", Health = 280, ImageUrl = imageUrls[15], Spells = new List<Spell> { spell23, spell24, spell3, spell6 } },
+                new Monster { Name = "Specter", Health = 180, ImageUrl = imageUrls[16], Spells = new List<Spell> { spell20, spell25, spell2, spell11 } },
+                new Monster { Name = "Djinn", Health = 270, ImageUrl = imageUrls[17], Spells = new List<Spell> { spell18, spell23, spell21, spell7 } },
+                new Monster { Name = "Harpy", Health = 220, ImageUrl = imageUrls[18], Spells = new List<Spell> { spell17, spell16, spell1, spell12 } },
+                new Monster { Name = "Necromancer", Health = 300, ImageUrl = imageUrls[19], Spells = new List<Spell> { spell24, spell25, spell20, spell9 } },
                 };
 
                 context.Monsters.AddRange(monsters);
@@ -199,17 +200,89 @@ namespace TpCsharpPoKEKW.Model
             }
         }
 
-        // new + add player to user 
+        //get all spell ( sppel + monster)
+        private readonly string _connectionString;
 
-        // add monster to player 
+        public DbLogic(string connectionString)
+        {
+            _connectionString = connectionString;
+        }
+        public static List<Spell> GetSpells()
+        {
+            var spells = new List<Spell>();
 
-        // remove monter from player
+            using (var connection = new SqlConnection(null))
+            {
+                connection.Open();
 
-        
+                string query = @"
+                    SELECT 
+                        s.ID AS SpellID, s.Name AS SpellName, s.Damage, s.Description,
+                        m.ID AS MonsterID, m.Name AS MonsterName, m.Health, m.ImageURL
+                    FROM Spell s
+                    LEFT JOIN MonsterSpell ms ON s.ID = ms.SpellID
+                    LEFT JOIN Monster m ON ms.MonsterID = m.ID
+                    ORDER BY s.ID, m.ID;";
 
+                using (var command = new SqlCommand(query, connection))
+                using (var reader = command.ExecuteReader())
+                {
+                    Spell currentSpell = null;
 
+                    while (reader.Read())
+                    {
+                        int spellId = reader.GetInt32(reader.GetOrdinal("SpellID"));
+
+                        if (currentSpell == null || currentSpell.Id != spellId)
+                        {
+                            currentSpell = new Spell
+                            {
+                                Id = spellId,
+                                Name = reader.GetString(reader.GetOrdinal("SpellName")),
+                                Damage = reader.GetInt32(reader.GetOrdinal("Damage")),
+                                Description = reader.GetString(reader.GetOrdinal("Description")),
+                                Monsters = new List<Monster>()
+                            };
+                            spells.Add(currentSpell);
+                        }
+
+                        if (!reader.IsDBNull(reader.GetOrdinal("MonsterID")))
+                        {
+                            var monster = new Monster
+                            {
+                                Id = reader.GetInt32(reader.GetOrdinal("MonsterID")),
+                                Name = reader.GetString(reader.GetOrdinal("MonsterName")),
+                                Health = reader.GetInt32(reader.GetOrdinal("Health")),
+                                ImageUrl = reader.IsDBNull(reader.GetOrdinal("ImageURL")) ? null : reader.GetString(reader.GetOrdinal("ImageURL"))
+                            };
+
+                            currentSpell.Monsters.Add(monster);
+                        }
+                    }
+                }
+            }
+
+            return spells;
+        }
     }
+
+    // get player for a user  
+
+    // new + add player to user 
+
+    // modifier player 
+
+    // get monster for a player (monster tab + spell ) 
+
+    // add monster to player 
+
+    // remove monter from player
+
+
 
 
 }
+
+
+
 

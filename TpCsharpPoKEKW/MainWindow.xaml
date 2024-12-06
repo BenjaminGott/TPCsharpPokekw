@@ -9,7 +9,9 @@
         xmlns:vm="clr-namespace:TpCsharpPoKEKW.MVVM.ViewModel"
         
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="500" Width="700"
+        ResizeMode="CanMinimize"
+        >
     <!--   xmlns:view="clr-namespace:TpCsharpPoKEKW.MVVM.View"
  xmlns:vm="clr-namespace:TpCsharpPoKEKW.MVVM.ViewModel" link les dossier   -->
 
@@ -35,7 +37,7 @@
         -->
         
     </Window.Resources>
-    <Grid>
+    <Grid MaxHeight="500" MaxWidth="700" Height="500" Width="700" MinHeight="500" MinWidth="700">
         <ContentControl Content="{Binding CurrentVM}"/>
     </Grid>
 </Window>

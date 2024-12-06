@@ -10,6 +10,7 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
     /*Commande qui marche avec tous les VM*/
     public class BaseVM : ObservableObject
     {
+        
         public static void BackHome()
         {
             MainWindowVM.OnRequestVMChange?.Invoke(new MainViewVM());

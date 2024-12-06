@@ -11,7 +11,7 @@
         <vm:MainViewVM />
     </UserControl.DataContext>
 
-    <Grid>
+    <Grid >
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
 
             <!-- Nom de l'utilisateur connecté -->
