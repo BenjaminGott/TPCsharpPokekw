@@ -34,6 +34,8 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
             MessageBox.Show(DbLogic.FirstAdduser());
             MessageBox.Show(DbLogic.InitializeMonsters());
             BackHome();
+           
+
 
         }
 

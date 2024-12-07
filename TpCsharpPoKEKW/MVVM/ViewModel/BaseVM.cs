@@ -16,8 +16,10 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
             MainWindowVM.OnRequestVMChange?.Invoke(new MainViewVM());
         }
 
+  
         public static class Session 
         {
+            public static List<SpellWithMonsters> SpellList;
             private static bool _isLoggedIn = false;
             public static bool IsLoggedIn 
             {

@@ -9,7 +9,15 @@ using static TpCsharpPoKEKW.MVVM.ViewModel.BaseVM;
 
 namespace TpCsharpPoKEKW.Model
 {
-    public class DbLogic 
+    public class SpellWithMonsters
+    {
+        public int SpellId { get; set; }
+        public string Name { get; set; }
+        public int Damage { get; set; }
+        public string Description { get; set; }
+        public List<Model.Monster> Monsters { get; set; }
+    }
+    public class DbLogic
 
     {
         public static string HashPassword(string password)
@@ -56,7 +64,7 @@ namespace TpCsharpPoKEKW.Model
         {
             using (var context = new ExerciceMonsterContext())
             {
-      
+
                 var spell1 = new Spell { Name = "Fireball", Damage = 50, Description = "A blazing fireball that burns enemies." };
                 var spell2 = new Spell { Name = "Ice Shard", Damage = 40, Description = "A sharp shard of ice that pierces enemies." };
                 var spell3 = new Spell { Name = "Thunder Strike", Damage = 60, Description = "A powerful lightning strike." };
@@ -88,7 +96,7 @@ namespace TpCsharpPoKEKW.Model
                 context.Spells.AddRange(spell1, spell2, spell3, spell4, spell5);
                 context.SaveChanges();
 
-              
+
                 var imageUrls = new List<string>
         {
             "Assets/IMG/1.png",
@@ -149,8 +157,42 @@ namespace TpCsharpPoKEKW.Model
 
         #endregion initdb
 
-
         public static string Adduser(string username, string password)
+        {
+            using var context = new ExerciceMonsterContext();
+
+            // Vérifie si le nom d'utilisateur existe déjà
+            if (context.Logins.Any(l => l.Username == username))
+            {
+                return "Le nom d'utilisateur existe déjà !";
+            }
+
+            // Hash le mot de passe
+            string hashedPassword = HashPassword(password);
+
+            // Crée un nouvel utilisateur
+            var login = new Login
+            {
+                Username = username,
+                PasswordHash = hashedPassword
+            };
+
+            context.Logins.Add(login);
+            context.SaveChanges();
+
+            // Crée un joueur lié au nouvel utilisateur
+            var player = new Player
+            {
+                Name = username, // Utilise le nom d'utilisateur comme nom de joueur, ou change cette logique si nécessaire
+                LoginId = login.Id
+            };
+
+            context.Players.Add(player);
+            context.SaveChanges();
+
+            return "Utilisateur et joueur ajoutés avec succès !";
+        }
+        /*public static string Adduser(string username, string password)
         {
             using var context = new ExerciceMonsterContext();
 
@@ -171,14 +213,14 @@ namespace TpCsharpPoKEKW.Model
             context.SaveChanges();
 
             return "Utilisateur et joueur ajoutés avec succès !";
-        }
-     
-      
+        }*/
+
+
         public static string LoginUser(string username, string password)
         {
             using (var context = new ExerciceMonsterContext())
             {
-          
+
                 var login = context.Logins.FirstOrDefault(l => l.Username == username);
 
                 if (login == null)
@@ -192,7 +234,7 @@ namespace TpCsharpPoKEKW.Model
                 {
                     return "Mot de passe incorrect.";
                 }
-
+                Session.SpellList = DbLogic.GetSpellsWithMonsters();
                 Session.IsLoggedIn = true;
                 Session.LoggedInUsername = login.Username;
 
@@ -201,86 +243,137 @@ namespace TpCsharpPoKEKW.Model
         }
 
         //get all spell ( sppel + monster)
-        private readonly string _connectionString;
-
-        public DbLogic(string connectionString)
+        public static List<SpellWithMonsters> GetSpellsWithMonsters()
         {
-            _connectionString = connectionString;
-        }
-        public static List<Spell> GetSpells()
-        {
-            var spells = new List<Spell>();
-
-            using (var connection = new SqlConnection(null))
+            using (var context = new ExerciceMonsterContext())
             {
-                connection.Open();
-
-                string query = @"
-                    SELECT 
-                        s.ID AS SpellID, s.Name AS SpellName, s.Damage, s.Description,
-                        m.ID AS MonsterID, m.Name AS MonsterName, m.Health, m.ImageURL
-                    FROM Spell s
-                    LEFT JOIN MonsterSpell ms ON s.ID = ms.SpellID
-                    LEFT JOIN Monster m ON ms.MonsterID = m.ID
-                    ORDER BY s.ID, m.ID;";
-
-                using (var command = new SqlCommand(query, connection))
-                using (var reader = command.ExecuteReader())
-                {
-                    Spell currentSpell = null;
-
-                    while (reader.Read())
+                // Récupérer tous les sorts avec les monstres qui les utilisent
+                var spellsWithMonsters = context.Spells
+                    .Select(spell => new SpellWithMonsters
                     {
-                        int spellId = reader.GetInt32(reader.GetOrdinal("SpellID"));
-
-                        if (currentSpell == null || currentSpell.Id != spellId)
+                        SpellId = spell.Id,
+                        Name = spell.Name,
+                        Damage = spell.Damage,
+                        Description = spell.Description,
+                        Monsters = spell.Monsters.Select(monster => new Model.Monster
                         {
-                            currentSpell = new Spell
-                            {
-                                Id = spellId,
-                                Name = reader.GetString(reader.GetOrdinal("SpellName")),
-                                Damage = reader.GetInt32(reader.GetOrdinal("Damage")),
-                                Description = reader.GetString(reader.GetOrdinal("Description")),
-                                Monsters = new List<Monster>()
-                            };
-                            spells.Add(currentSpell);
-                        }
+                            Id = monster.Id,
+                            Name = monster.Name,
+                            Health = monster.Health,
+                            ImageUrl = monster.ImageUrl
+                        }).ToList()
+                    }).ToList();
 
-                        if (!reader.IsDBNull(reader.GetOrdinal("MonsterID")))
-                        {
-                            var monster = new Monster
-                            {
-                                Id = reader.GetInt32(reader.GetOrdinal("MonsterID")),
-                                Name = reader.GetString(reader.GetOrdinal("MonsterName")),
-                                Health = reader.GetInt32(reader.GetOrdinal("Health")),
-                                ImageUrl = reader.IsDBNull(reader.GetOrdinal("ImageURL")) ? null : reader.GetString(reader.GetOrdinal("ImageURL"))
-                            };
+                return spellsWithMonsters;
+            }
+        }
 
-                            currentSpell.Monsters.Add(monster);
-                        }
-                    }
-                }
+
+        // get all moonster 
+        public static List<Model.Monster> GetMonsters()
+        {
+            using (var context = new ExerciceMonsterContext())
+            {
+                // Récupérer tous les monstres
+                var monsters = context.Monsters
+                    .Select(monster => new Model.Monster
+                    {
+                        Id = monster.Id,
+                        Name = monster.Name,
+                        Health = monster.Health,
+                        ImageUrl = monster.ImageUrl
+                    }).ToList();
+
+                return monsters;
             }
 
-            return spells;
         }
+        // modifier player add monster 
+        public static string AddMonsterToPlayer(int playerId, int monsterId)
+        {
+            using (var context = new ExerciceMonsterContext())
+            {
+                // Récupérer le joueur et le monstre
+                var player = context.Players.FirstOrDefault(p => p.Id == playerId);
+                var monster = context.Monsters.FirstOrDefault(m => m.Id == monsterId);
+
+                if (player == null)
+                {
+                    return "Joueur non trouvé.";
+                }
+
+                if (monster == null)
+                {
+                    return "Monstre non trouvé.";
+                }
+                player.Monsters.Add(monster);
+                context.SaveChanges();
+
+                return $"Le monstre {monster.Name} a été ajouté au joueur {player.Name}.";
+            }
+        }
+        public static string RemoveMonsterFromPlayer(int playerId, int monsterId)
+        {
+            using (var context = new ExerciceMonsterContext())
+            {
+                var player = context.Players.FirstOrDefault(p => p.Id == playerId);
+                var monster = context.Monsters.FirstOrDefault(m => m.Id == monsterId);
+
+                if (player == null)
+                {
+                    return "Joueur non trouvé.";
+                }
+
+                if (monster == null)
+                {
+                    return "Monstre non trouvé.";
+                }
+
+                if (!player.Monsters.Contains(monster))
+                {
+                    return $"Le joueur {player.Name} ne possède pas le monstre {monster.Name}.";
+                }
+
+                player.Monsters.Remove(monster);
+                context.SaveChanges();
+
+                return $"Le monstre {monster.Name} a été retiré du joueur {player.Name}.";
+            }
+        }
+
+            // get monster for a player (monster tab + spell ) 
+
+            public static List<Monster> GetPlayerMonsters(int playerId)
+        {
+            using (var context = new ExerciceMonsterContext())
+            {
+                // Récupérer le joueur
+                var player = context.Players
+                    .Where(p => p.Id == playerId)
+                    .Select(p => new {
+                        Monsters = p.Monsters.Select(m => new Monster
+                        {
+                            Id = m.Id,
+                            Name = m.Name,
+                            Health = m.Health,
+                            ImageUrl = m.ImageUrl
+                        }).ToList()
+                    })
+                    .FirstOrDefault();
+
+                if (player == null || player.Monsters == null || !player.Monsters.Any())
+                {
+                    return new List<Monster>();
+                }
+
+                return player.Monsters;
+            }
+        }
+
+   
+
+
     }
-
-    // get player for a user  
-
-    // new + add player to user 
-
-    // modifier player 
-
-    // get monster for a player (monster tab + spell ) 
-
-    // add monster to player 
-
-    // remove monter from player
-
-
-
-
 }
 
 
