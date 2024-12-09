@@ -10,14 +10,15 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
     public class MainViewVM : BaseVM
     {
 
+        public static string? LoggedInUsername => Session.LoggedInUsername;
+        public static bool IsLoggedIn => Session.IsLoggedIn;
+
         public ICommand HandleRequestSettings { get; set; }
         public ICommand HandleRequestLogIn { get; set; }
         public ICommand HandleRequestSignIn { get; set; }
         public ICommand HandleRequestLogOut { get; set; }
         public ICommand HandleRequestPlay { get; set; }
-
-        public static string? LoggedInUsername => Session.LoggedInUsername;
-        public static bool IsLoggedIn => Session.IsLoggedIn;
+        public ICommand HandleRequestListMo { get; set; }
 
         public MainViewVM()
         {
@@ -26,6 +27,7 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
             HandleRequestSignIn = new RelayCommand(Sign);
             HandleRequestLogOut = new RelayCommand(LogOut);
             HandleRequestPlay = new RelayCommand(Play);
+            HandleRequestListMo = new RelayCommand(ListM);
         }
 
         public void Sign()
@@ -52,6 +54,11 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
                 MainWindowVM.OnRequestVMChange?.Invoke(new LoginVM());
             }
 
+        }
+
+        public static void ListM()
+        {
+            MainWindowVM.OnRequestVMChange?.Invoke(new ListMonsterVM());
         }
 
         public void Settings()

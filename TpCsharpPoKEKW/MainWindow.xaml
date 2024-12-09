@@ -29,6 +29,9 @@
         <DataTemplate DataType="{x:Type vm:SigninVM}">
             <view:SigninView/>
         </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:ListMonsterVM}">
+            <view:ListMonsterView/>
+        </DataTemplate>
         <!--   
         A ajoute a chaque nouvelle viw posssibme 
         <DataTemplate DataType="{x:Type vm:MainViewVM}">

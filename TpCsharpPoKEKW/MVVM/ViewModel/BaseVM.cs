@@ -10,7 +10,14 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
     /*Commande qui marche avec tous les VM*/
     public class BaseVM : ObservableObject
     {
-        
+
+        //Route
+
+
+
+
+
+       protected ExerciceMonsterContext context = new ExerciceMonsterContext();
         public static void BackHome()
         {
             MainWindowVM.OnRequestVMChange?.Invoke(new MainViewVM());
@@ -21,6 +28,8 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
         {
             public static List<SpellWithMonsters> SpellList;
             private static bool _isLoggedIn = false;
+
+            public static int Id {  get; set; } = 0;
             public static bool IsLoggedIn 
             {
                 get => _isLoggedIn;
@@ -54,6 +63,7 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
         {
             Session.IsLoggedIn = false;
             Session.LoggedInUsername = null;
+            Session.Id = 0;
             MainWindowVM.OnRequestVMChange?.Invoke(new MainViewVM());
             BackHome();
         }

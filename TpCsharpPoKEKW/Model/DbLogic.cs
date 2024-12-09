@@ -99,26 +99,26 @@ namespace TpCsharpPoKEKW.Model
 
                 var imageUrls = new List<string>
         {
-            "Assets/IMG/1.png",
-            "Assets/IMG/2.png",
-            "Assets/IMG/3.png",
-            "Assets/IMG/4.png",
-            "Assets/IMG/5.png",
-            "Assets/IMG/6.png",
-            "Assets/IMG/7.png",
-            "Assets/IMG/8.png",
-            "Assets/IMG/9.png",
-            "Assets/IMG/10.png",
-            "Assets/IMG/11.png",
-            "Assets/IMG/12.png",
-            "Assets/IMG/13.png",
-            "Assets/IMG/14.png",
-            "Assets/IMG/15.png",
-            "Assets/IMG/16.png",
-            "Assets/IMG/17.png",
-            "Assets/IMG/18.png",
-            "Assets/IMG/19.png",
-            "Assets/IMG/20.png"
+            "/Assets/IMG/1.png",
+            "/Assets/IMG/3.png",
+            "/Assets/IMG/4.png",
+            "/Assets/IMG/2.png",
+            "/Assets/IMG/5.png",
+            "/Assets/IMG/6.png",
+            "/Assets/IMG/7.png",
+            "/Assets/IMG/8.png",
+            "/Assets/IMG/9.png",
+            "/Assets/IMG/10.png",
+            "/Assets/IMG/11.png",
+            "/Assets/IMG/12.png",
+            "/Assets/IMG/13.png",
+            "/Assets/IMG/14.png",
+            "/Assets/IMG/15.png",
+            "/Assets/IMG/16.png",
+            "/Assets/IMG/17.png",
+            "/Assets/IMG/18.png",
+            "/Assets/IMG/19.png",
+            "/Assets/IMG/20.png"
         };
 
 
@@ -168,6 +168,9 @@ namespace TpCsharpPoKEKW.Model
             }
 
             // Hash le mot de passe
+            if (password == null) {
+                return "bad password"; 
+            }
             string hashedPassword = HashPassword(password);
 
             // Crée un nouvel utilisateur
@@ -192,28 +195,6 @@ namespace TpCsharpPoKEKW.Model
 
             return "Utilisateur et joueur ajoutés avec succès !";
         }
-        /*public static string Adduser(string username, string password)
-        {
-            using var context = new ExerciceMonsterContext();
-
-            if (context.Logins.Any(l => l.Username == username))
-            {
-                return "Le nom d'utilisateur existe déjà !";
-            }
-
-            string hashedPassword = HashPassword(password);
-
-            var login = new Login
-            {
-                Username = username,
-                PasswordHash = hashedPassword
-            };
-
-            context.Logins.Add(login);
-            context.SaveChanges();
-
-            return "Utilisateur et joueur ajoutés avec succès !";
-        }*/
 
 
         public static string LoginUser(string username, string password)
@@ -234,60 +215,15 @@ namespace TpCsharpPoKEKW.Model
                 {
                     return "Mot de passe incorrect.";
                 }
-                Session.SpellList = DbLogic.GetSpellsWithMonsters();
                 Session.IsLoggedIn = true;
                 Session.LoggedInUsername = login.Username;
+                Session.Id = login.Id;
 
                 return $"Connexion réussie, bienvenue {login.Username} !";
             }
         }
 
-        //get all spell ( sppel + monster)
-        public static List<SpellWithMonsters> GetSpellsWithMonsters()
-        {
-            using (var context = new ExerciceMonsterContext())
-            {
-                // Récupérer tous les sorts avec les monstres qui les utilisent
-                var spellsWithMonsters = context.Spells
-                    .Select(spell => new SpellWithMonsters
-                    {
-                        SpellId = spell.Id,
-                        Name = spell.Name,
-                        Damage = spell.Damage,
-                        Description = spell.Description,
-                        Monsters = spell.Monsters.Select(monster => new Model.Monster
-                        {
-                            Id = monster.Id,
-                            Name = monster.Name,
-                            Health = monster.Health,
-                            ImageUrl = monster.ImageUrl
-                        }).ToList()
-                    }).ToList();
-
-                return spellsWithMonsters;
-            }
-        }
-
-
-        // get all moonster 
-        public static List<Model.Monster> GetMonsters()
-        {
-            using (var context = new ExerciceMonsterContext())
-            {
-                // Récupérer tous les monstres
-                var monsters = context.Monsters
-                    .Select(monster => new Model.Monster
-                    {
-                        Id = monster.Id,
-                        Name = monster.Name,
-                        Health = monster.Health,
-                        ImageUrl = monster.ImageUrl
-                    }).ToList();
-
-                return monsters;
-            }
-
-        }
+        
         // modifier player add monster 
         public static string AddMonsterToPlayer(int playerId, int monsterId)
         {
@@ -299,17 +235,17 @@ namespace TpCsharpPoKEKW.Model
 
                 if (player == null)
                 {
-                    return "Joueur non trouvé.";
+                    return "Player not found.";
                 }
 
                 if (monster == null)
                 {
-                    return "Monstre non trouvé.";
+                    return "Monstre not found.";
                 }
                 player.Monsters.Add(monster);
                 context.SaveChanges();
 
-                return $"Le monstre {monster.Name} a été ajouté au joueur {player.Name}.";
+                return $"The monstre {monster.Name} will be add to {player.Name}.";
             }
         }
         public static string RemoveMonsterFromPlayer(int playerId, int monsterId)
@@ -321,23 +257,23 @@ namespace TpCsharpPoKEKW.Model
 
                 if (player == null)
                 {
-                    return "Joueur non trouvé.";
+                    return "Player not found.";
                 }
 
                 if (monster == null)
                 {
-                    return "Monstre non trouvé.";
+                    return "Monstre not found.";
                 }
 
                 if (!player.Monsters.Contains(monster))
                 {
-                    return $"Le joueur {player.Name} ne possède pas le monstre {monster.Name}.";
+                    return $"The player {player.Name} haven't this monster {monster.Name}.";
                 }
 
                 player.Monsters.Remove(monster);
                 context.SaveChanges();
 
-                return $"Le monstre {monster.Name} a été retiré du joueur {player.Name}.";
+                return $"The monstre {monster.Name} will be remove to {player.Name}.";
             }
         }
 
