@@ -29,7 +29,6 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
 
 
         public static void Goplay(Monster monster)
-            //sz
         {
             if (monster != null)
             {
