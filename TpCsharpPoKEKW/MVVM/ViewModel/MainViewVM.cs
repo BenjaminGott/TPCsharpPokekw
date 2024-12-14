@@ -19,6 +19,7 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
         public ICommand HandleRequestLogOut { get; set; }
         public ICommand HandleRequestPlay { get; set; }
         public ICommand HandleRequestListMo { get; set; }
+        public ICommand HandleRequestListSp { get; set; }
 
         public MainViewVM()
         {
@@ -28,6 +29,8 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
             HandleRequestLogOut = new RelayCommand(LogOut);
             HandleRequestPlay = new RelayCommand(Play);
             HandleRequestListMo = new RelayCommand(ListM);
+            HandleRequestListSp = new RelayCommand(ListS);
+            
         }
 
         public void Sign()
@@ -59,6 +62,10 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
         public static void ListM()
         {
             MainWindowVM.OnRequestVMChange?.Invoke(new ListMonsterVM());
+        }
+        public static void ListS()
+        {
+            MainWindowVM.OnRequestVMChange?.Invoke(new ListSpellVM());
         }
 
         public void Settings()

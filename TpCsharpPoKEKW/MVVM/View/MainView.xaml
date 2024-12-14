@@ -52,6 +52,7 @@
 
                 <Button Content="Jouer" Command="{Binding HandleRequestPlay}" Width="200" />
                 <Button Content="List des Monster" Command="{Binding HandleRequestListMo}" Width="200" />
+                <Button Content="List des spell" Command="{Binding HandleRequestListSp}" Width="200" />
                 <Button Content="Déconnexion" Command="{Binding HandleRequestLogOut}" Width="200" />
                 
             </StackPanel>

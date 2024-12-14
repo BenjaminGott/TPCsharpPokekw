@@ -32,6 +32,11 @@
         <DataTemplate DataType="{x:Type vm:ListMonsterVM}">
             <view:ListMonsterView/>
         </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:ListSpellVM}">
+            <view:ListSpellView/>
+        </DataTemplate>
+
+
         <!--   
         A ajoute a chaque nouvelle viw posssibme 
         <DataTemplate DataType="{x:Type vm:MainViewVM}">
