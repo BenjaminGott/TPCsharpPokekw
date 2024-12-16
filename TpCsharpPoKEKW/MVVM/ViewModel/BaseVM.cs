@@ -1,36 +1,63 @@
-﻿using System;
+﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.Reflection;
-using System.Windows;
 using CommunityToolkit.Mvvm.ComponentModel;
 using TpCsharpPoKEKW.Model;
-
 namespace TpCsharpPoKEKW.MVVM.ViewModel
 {
     /*Commande qui marche avec tous les VM*/
+    public class CombatMosnter : ObservableObject
+    {
+        private int _curentHealth;
+
+        public int CurentHealth
+        {
+            get => _curentHealth;
+            set { SetProperty(ref _curentHealth, value); OnPropertyChanged(nameof(CurentHealth)); } // Utilisation de SetProperty fourni par ObservableObject
+        }
+
+        public int Health { get; set; }
+        public string Name { get; set; }
+        public string? ImageUrl { get; set; }
+        public ObservableCollection<Spell> Spells { get; set; }
+
+        /* public int CurentHealth { get; set; }*/
+
+
+        public CombatMosnter(Monster m)
+        {
+            {
+                CurentHealth = m.Health;
+                Health = m.Health;
+                Name = m.Name;
+                Spells = new(m.Spells);
+                ImageUrl = m.ImageUrl;
+            }
+
+
+
+        }
+
+    }
     public class BaseVM : ObservableObject
     {
 
-        //Route
+        public static CombatMosnter MonsterCombat { get; set; }
+        protected ExerciceMonsterContext context = new ExerciceMonsterContext();
 
 
-
-
-
-       protected ExerciceMonsterContext context = new ExerciceMonsterContext();
         public static void BackHome()
         {
             MainWindowVM.OnRequestVMChange?.Invoke(new MainViewVM());
         }
 
-  
-        public static class Session 
+
+        public static class Session
         {
             public static List<SpellWithMonsters> SpellList;
             private static bool _isLoggedIn = false;
 
-            public static int Id {  get; set; } = 0;
-            public static bool IsLoggedIn 
+            public static int Id { get; set; } = 0;
+            public static bool IsLoggedIn
             {
                 get => _isLoggedIn;
                 set

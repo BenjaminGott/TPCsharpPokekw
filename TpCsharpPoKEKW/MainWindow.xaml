@@ -35,6 +35,10 @@
         <DataTemplate DataType="{x:Type vm:ListSpellVM}">
             <view:ListSpellView/>
         </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:CombatVM}">
+            <view:CombatView/>
+        </DataTemplate>
+
 
 
         <!--   

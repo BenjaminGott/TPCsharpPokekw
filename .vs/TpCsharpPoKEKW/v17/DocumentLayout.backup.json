@@ -3,40 +3,36 @@
   "WorkspaceRootPath": "D:\\Ynov\\c\\TpCsharpPoKEKW\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\viewmodel\\listmonstervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\mvvm\\viewmodel\\listmonstervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\viewmodel\\listspellvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\mvvm\\viewmodel\\listspellvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\view\\listspellview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\mvvm\\view\\listspellview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\viewmodel\\combatvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\mvvm\\viewmodel\\combatvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\view\\listmonsterview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\mvvm\\view\\listmonsterview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\model\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\model\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\view\\combatview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\mvvm\\view\\combatview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\mvvm\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\viewmodel\\basevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\mvvm\\viewmodel\\basevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\model\\spell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\model\\spell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\view\\combatview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\mvvm\\view\\combatview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\view\\listmonsterview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\mvvm\\view\\listmonsterview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\view\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\mvvm\\view\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\viewmodel\\listmonstervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\mvvm\\viewmodel\\listmonstervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\model\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\model\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -45,6 +41,34 @@
     {
       "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\model\\exercicemonstercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\model\\exercicemonstercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\viewmodel\\mainviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\mvvm\\viewmodel\\mainviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\model\\spell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\model\\spell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\view\\listspellview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\mvvm\\view\\listspellview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\viewmodel\\listspellvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\mvvm\\viewmodel\\listspellvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\mvvm\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\view\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\mvvm\\view\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\view\\listspellview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\mvvm\\view\\listspellview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\viewmodel\\mainviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\mvvm\\viewmodel\\mainviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,20 +111,12 @@
       "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\model\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\viewmodel\\basevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\mvvm\\viewmodel\\basevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\viewmodel\\mainwindowvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\mvvm\\viewmodel\\mainwindowvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\assets\\img\\1.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\assets\\img\\1.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\viewmodel\\monsterchoisevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -126,183 +138,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 10,
               "Title": "MainViewVM.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\MainViewVM.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\MainViewVM.cs",
               "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\MainViewVM.cs",
               "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\ViewModel\\MainViewVM.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAswA8AAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAcwEMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T16:11:29.187Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ListSpellView.xaml",
-              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\ListSpellView.xaml",
-              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\ListSpellView.xaml",
-              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\ListSpellView.xaml",
-              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\View\\ListSpellView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-13T15:47:15.688Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MainWindow.xaml.cs",
-              "RelativeToolTip": "TpCsharpPoKEKW\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T15:30:52.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ListSpellView.g.cs",
-              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\obj\\Debug\\net9.0-windows\\MVVM\\View\\ListSpellView.g.cs",
-              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\obj\\Debug\\net9.0-windows\\MVVM\\View\\ListSpellView.g.cs",
-              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\obj\\Debug\\net9.0-windows\\MVVM\\View\\ListSpellView.g.cs",
-              "RelativeToolTip": "TpCsharpPoKEKW\\obj\\Debug\\net9.0-windows\\MVVM\\View\\ListSpellView.g.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAtwC0AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T10:18:48.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LoginVM.cs",
-              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\LoginVM.cs",
-              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\LoginVM.cs",
-              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\LoginVM.cs",
-              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\ViewModel\\LoginVM.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T13:02:26.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ListSpellVM.cs",
-              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\ListSpellVM.cs",
-              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\ListSpellVM.cs",
-              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\ListSpellVM.cs",
-              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\ViewModel\\ListSpellVM.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T10:26:22.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ListMonsterView.xaml.cs",
-              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\ListMonsterView.xaml.cs",
-              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\ListMonsterView.xaml.cs",
-              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\ListMonsterView.xaml.cs",
-              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\View\\ListMonsterView.xaml.cs",
+              "DocumentIndex": 4,
+              "Title": "CombatView.xaml.cs",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\CombatView.xaml.cs",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\CombatView.xaml.cs",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\CombatView.xaml.cs",
+              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\View\\CombatView.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T20:36:08.259Z",
+              "WhenOpened": "2024-12-16T14:39:49.566Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ListMonsterVM.cs",
-              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\ListMonsterVM.cs",
-              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\ListMonsterVM.cs",
-              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\ListMonsterVM.cs",
-              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\ViewModel\\ListMonsterVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
+              "Title": "CombatVM.cs",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\CombatVM.cs",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\CombatVM.cs",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\CombatVM.cs",
+              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\ViewModel\\CombatVM.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAuwE0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T12:40:47.613Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\AssemblyInfo.cs",
-              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\AssemblyInfo.cs",
-              "RelativeToolTip": "TpCsharpPoKEKW\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T16:33:09.569Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MainWindow.xaml",
-              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MainWindow.xaml",
-              "RelativeToolTip": "TpCsharpPoKEKW\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-26T16:25:39.217Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DbLogic.cs",
-              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Model\\DbLogic.cs",
-              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\Model\\DbLogic.cs",
-              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Model\\DbLogic.cs",
-              "RelativeToolTip": "TpCsharpPoKEKW\\Model\\DbLogic.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAYwLQAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T16:37:32.624Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ExerciceMonsterContext.cs",
-              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Model\\ExerciceMonsterContext.cs",
-              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\Model\\ExerciceMonsterContext.cs",
-              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Model\\ExerciceMonsterContext.cs",
-              "RelativeToolTip": "TpCsharpPoKEKW\\Model\\ExerciceMonsterContext.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAswBwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T13:06:59.478Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Spell.cs",
-              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Model\\Spell.cs",
-              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\Model\\Spell.cs",
-              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Model\\Spell.cs",
-              "RelativeToolTip": "TpCsharpPoKEKW\\Model\\Spell.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T10:59:39.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainView.xaml",
-              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\MainView.xaml",
-              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\MainView.xaml",
-              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\MainView.xaml",
-              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\View\\MainView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-13T15:50:48.118Z",
+              "WhenOpened": "2024-12-14T07:55:41.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "BaseVM.cs",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\BaseVM.cs",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\BaseVM.cs",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\BaseVM.cs",
+              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\ViewModel\\BaseVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:13:38.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ListMonsterView.xaml",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\ListMonsterView.xaml",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\ListMonsterView.xaml",
@@ -314,31 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginView.xaml",
-              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\LoginView.xaml",
-              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\LoginView.xaml",
-              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\LoginView.xaml",
-              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\View\\LoginView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-13T15:47:18.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ListSpellView.xaml.cs",
-              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\ListSpellView.xaml.cs",
-              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\ListSpellView.xaml.cs",
-              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\ListSpellView.xaml.cs",
-              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\View\\ListSpellView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T15:47:57.473Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Monster.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Model\\Monster.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\Model\\Monster.cs",
@@ -351,42 +220,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MonsterChoiseView.xaml",
-              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\MonsterChoiseView.xaml",
-              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\MonsterChoiseView.xaml",
-              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\MonsterChoiseView.xaml",
-              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\View\\MonsterChoiseView.xaml",
+              "DocumentIndex": 6,
+              "Title": "ListMonsterVM.cs",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\ListMonsterVM.cs",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\ListMonsterVM.cs",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\ListMonsterVM.cs",
+              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\ViewModel\\ListMonsterVM.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAMwB4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T12:40:47.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ListMonsterView.xaml.cs",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\ListMonsterView.xaml.cs",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\ListMonsterView.xaml.cs",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\ListMonsterView.xaml.cs",
+              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\View\\ListMonsterView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:36:08.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Spell.cs",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Model\\Spell.cs",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\Model\\Spell.cs",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Model\\Spell.cs",
+              "RelativeToolTip": "TpCsharpPoKEKW\\Model\\Spell.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T10:59:39.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ExerciceMonsterContext.cs",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Model\\ExerciceMonsterContext.cs",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\Model\\ExerciceMonsterContext.cs",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Model\\ExerciceMonsterContext.cs",
+              "RelativeToolTip": "TpCsharpPoKEKW\\Model\\ExerciceMonsterContext.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T13:06:59.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DbLogic.cs",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Model\\DbLogic.cs",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\Model\\DbLogic.cs",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Model\\DbLogic.cs",
+              "RelativeToolTip": "TpCsharpPoKEKW\\Model\\DbLogic.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAYwLQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T16:37:32.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MainWindow.xaml",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MainWindow.xaml",
+              "RelativeToolTip": "TpCsharpPoKEKW\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-13T15:50:47.457Z"
+              "WhenOpened": "2024-11-26T16:25:39.217Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TpCsharpPoKEKW.csproj",
-              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj",
-              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj",
-              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj",
-              "RelativeToolTip": "TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-06T08:43:43.167Z"
+              "DocumentIndex": 17,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\AssemblyInfo.cs",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\AssemblyInfo.cs",
+              "RelativeToolTip": "TpCsharpPoKEKW\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:33:09.569Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "1.png - PNG [103x109, 32\u00A0bits, PNG]",
-              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Assets\\IMG\\1.png",
-              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\Assets\\IMG\\1.png",
-              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Assets\\IMG\\1.png - PNG [103x109, 32\u00A0bits, PNG]",
-              "RelativeToolTip": "TpCsharpPoKEKW\\Assets\\IMG\\1.png - PNG [103x109, 32\u00A0bits, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-12-08T08:38:27.248Z",
-              "EditorCaption": " - PNG [103x109, 32\u00A0bits, PNG]"
+              "DocumentIndex": 14,
+              "Title": "ListSpellVM.cs",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\ListSpellVM.cs",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\ListSpellVM.cs",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\ListSpellVM.cs",
+              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\ViewModel\\ListSpellVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T10:26:22.427Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 12,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\App.xaml",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\App.xaml",
@@ -398,7 +331,127 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\LoginVM.cs",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\LoginVM.cs",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\LoginVM.cs",
+              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\ViewModel\\LoginVM.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T13:02:26.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ListSpellView.xaml",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\ListSpellView.xaml",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\ListSpellView.xaml",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\ListSpellView.xaml",
+              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\View\\ListSpellView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-13T15:47:15.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ListSpellView.g.cs",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\obj\\Debug\\net9.0-windows\\MVVM\\View\\ListSpellView.g.cs",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\obj\\Debug\\net9.0-windows\\MVVM\\View\\ListSpellView.g.cs",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\obj\\Debug\\net9.0-windows\\MVVM\\View\\ListSpellView.g.cs",
+              "RelativeToolTip": "TpCsharpPoKEKW\\obj\\Debug\\net9.0-windows\\MVVM\\View\\ListSpellView.g.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAtwC0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T10:18:48.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TpCsharpPoKEKW\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T15:30:52.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainView.xaml",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\MainView.xaml",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\MainView.xaml",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\MainView.xaml",
+              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\View\\MainView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-13T15:50:48.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\LoginView.xaml",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\LoginView.xaml",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\LoginView.xaml",
+              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\View\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-13T15:47:18.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ListSpellView.xaml.cs",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\ListSpellView.xaml.cs",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\ListSpellView.xaml.cs",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\ListSpellView.xaml.cs",
+              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\View\\ListSpellView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T15:47:57.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MonsterChoiseView.xaml",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\MonsterChoiseView.xaml",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\MonsterChoiseView.xaml",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\MonsterChoiseView.xaml",
+              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\View\\MonsterChoiseView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-13T15:50:47.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TpCsharpPoKEKW.csproj",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj",
+              "RelativeToolTip": "TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-06T08:43:43.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "1.png - PNG [103x109, 32\u00A0bits, PNG]",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Assets\\IMG\\1.png",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\Assets\\IMG\\1.png",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Assets\\IMG\\1.png - PNG [103x109, 32\u00A0bits, PNG]",
+              "RelativeToolTip": "TpCsharpPoKEKW\\Assets\\IMG\\1.png - PNG [103x109, 32\u00A0bits, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-12-08T08:38:27.248Z",
+              "EditorCaption": " - PNG [103x109, 32\u00A0bits, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "Login.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Model\\Login.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\Model\\Login.cs",
@@ -410,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "MainWindowVM.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\MainWindowVM.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\MainWindowVM.cs",
@@ -422,19 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "BaseVM.cs",
-              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\BaseVM.cs",
-              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\BaseVM.cs",
-              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\BaseVM.cs",
-              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\ViewModel\\BaseVM.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB8AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T16:13:38.994Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Model\\Player.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\Model\\Player.cs",
@@ -446,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "MonsterChoiseVM.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\MonsterChoiseVM.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\MonsterChoiseVM.cs",
@@ -458,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "SettingsVM.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\SettingsVM.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\SettingsVM.cs",
@@ -470,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "SigninVM.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\SigninVM.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\SigninVM.cs",
@@ -479,6 +520,39 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T13:43:26.648Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "647ebffb-d029-4bf6-96b4-329f7b6cfb28",
+        "Display": 0,
+        "X": 41,
+        "Y": 239,
+        "Width": 2522,
+        "Height": 1050,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CombatView.xaml",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\CombatView.xaml",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\CombatView.xaml",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\CombatView.xaml",
+              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\View\\CombatView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-14T07:55:27.298Z",
+              "EditorCaption": ""
             }
           ]
         }
