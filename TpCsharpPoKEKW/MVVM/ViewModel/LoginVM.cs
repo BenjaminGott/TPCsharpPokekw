@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Input;
 using CommunityToolkit.Mvvm.Input;
 using TpCsharpPoKEKW.Model;
@@ -16,18 +11,25 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
 
         public string Email { get; set; }
         public string Password { get; set; }
+        public ICommand HandleRequestLogGuess { get; set; }
 
         public LoginVM()
         {
             HandleRequestLog = new RelayCommand(Log);
+            HandleRequestLogGuess = new RelayCommand(LogGuess);
         }
 
-        
+
         public void Log()
         {
             MessageBox.Show(DbLogic.LoginUser(Email, Password));
             BackHome();
 
+        }
+        public void LogGuess()
+        {
+            MessageBox.Show(DbLogic.LoginUser("guess", "Password"));
+            BackHome();
         }
     }
 }

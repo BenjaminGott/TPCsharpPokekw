@@ -20,6 +20,7 @@
             <PasswordBox PasswordChanged="PasswordBox_PasswordChanged" />
 
             <Button Content="LogIn" Command="{Binding HandleRequestLog}" Margin="0,20,0,0" />
+            <Button Content="Continue as guess" Command="{Binding HandleRequestLogGuess}" Width="200" Margin="10"/>
         </StackPanel>
     </Grid>
 </UserControl>

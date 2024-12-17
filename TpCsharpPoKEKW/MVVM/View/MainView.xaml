@@ -17,8 +17,7 @@
             <!-- Nom de l'utilisateur connecté -->
             <TextBlock Text="{Binding LoggedInUsername, FallbackValue='Non connecté'}"
                        FontSize="18" FontWeight="Bold" 
-                       TextAlignment="Center"
-                       />
+                       TextAlignment="Center" />
 
             <!-- Boutons affichés si non connecté -->
             <StackPanel>
@@ -32,9 +31,10 @@
                     </Style>
                 </StackPanel.Style>
 
-                <Button Content="Settigs" Command="{Binding HandleRequestSettings}" Width="200" />
-                <Button Content="LogIn" Command="{Binding HandleRequestLogIn}" Width="200" />
-                <Button Content="SignIn" Command="{Binding HandleRequestSignIn}" Width="200" />
+                <Button Content="Settigs" Command="{Binding HandleRequestSettings}" Width="200" Margin="10"/>
+                <Button Content="LogIn" Command="{Binding HandleRequestLogIn}" Width="200"  Margin="10" />
+                <Button Content="SignIn" Command="{Binding HandleRequestSignIn}" Width="200" Margin="10"/>
+            
                 
             </StackPanel>
 
@@ -50,11 +50,9 @@
                     </Style>
                 </StackPanel.Style>
 
-                <Button Content="Jouer" Command="{Binding HandleRequestPlay}" Width="200" />
-                <Button Content="List des Monster" Command="{Binding HandleRequestListMo}" Width="200" />
-                <Button Content="List des spell" Command="{Binding HandleRequestListSp}" Width="200" />
-                <Button Content="Déconnexion" Command="{Binding HandleRequestLogOut}" Width="200" />
-                
+                <Button Content="List des Monster" Command="{Binding HandleRequestListMo}" Width="200"  Margin="10"/>
+                <Button Content="List des spell" Command="{Binding HandleRequestListSp}" Width="200" Margin="10"/>
+
             </StackPanel>
         </StackPanel>
     </Grid>

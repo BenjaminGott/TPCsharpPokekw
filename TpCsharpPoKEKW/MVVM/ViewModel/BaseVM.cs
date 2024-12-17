@@ -1,6 +1,8 @@
 ﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Windows.Input;
 using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using TpCsharpPoKEKW.Model;
 namespace TpCsharpPoKEKW.MVVM.ViewModel
 {
@@ -40,11 +42,14 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
     }
     public class BaseVM : ObservableObject
     {
-
+        public ICommand HandleRequestBackHome { get; set; }
         public static CombatMosnter MonsterCombat { get; set; }
         protected ExerciceMonsterContext context = new ExerciceMonsterContext();
 
-
+        public BaseVM()
+        {
+            HandleRequestBackHome = new RelayCommand(BackHome);
+        }
         public static void BackHome()
         {
             MainWindowVM.OnRequestVMChange?.Invoke(new MainViewVM());
@@ -86,13 +91,5 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
             }
         }
 
-        public static void LogOut()
-        {
-            Session.IsLoggedIn = false;
-            Session.LoggedInUsername = null;
-            Session.Id = 0;
-            MainWindowVM.OnRequestVMChange?.Invoke(new MainViewVM());
-            BackHome();
-        }
     }
 }

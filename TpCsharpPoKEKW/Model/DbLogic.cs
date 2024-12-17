@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
-using Microsoft.Data.SqlClient;
 using static TpCsharpPoKEKW.MVVM.ViewModel.BaseVM;
 
 namespace TpCsharpPoKEKW.Model
@@ -38,12 +33,12 @@ namespace TpCsharpPoKEKW.Model
             using (var context = new ExerciceMonsterContext())
             {
 
-                string hashedPassword = HashPassword("1234");
+                string hashedPassword = HashPassword("Password");
 
 
                 var login = new Login
                 {
-                    Username = "test",
+                    Username = "guess",
                     PasswordHash = hashedPassword
                 };
 
@@ -168,8 +163,9 @@ namespace TpCsharpPoKEKW.Model
             }
 
             // Hash le mot de passe
-            if (password == null) {
-                return "bad password"; 
+            if (password == null)
+            {
+                return "bad password";
             }
             string hashedPassword = HashPassword(password);
 
@@ -223,7 +219,7 @@ namespace TpCsharpPoKEKW.Model
             }
         }
 
-        
+
         // modifier player add monster 
         public static string AddMonsterToPlayer(int playerId, int monsterId)
         {
@@ -277,16 +273,17 @@ namespace TpCsharpPoKEKW.Model
             }
         }
 
-            // get monster for a player (monster tab + spell ) 
+        // get monster for a player (monster tab + spell ) 
 
-            public static List<Monster> GetPlayerMonsters(int playerId)
+        public static List<Monster> GetPlayerMonsters(int playerId)
         {
             using (var context = new ExerciceMonsterContext())
             {
                 // Récupérer le joueur
                 var player = context.Players
                     .Where(p => p.Id == playerId)
-                    .Select(p => new {
+                    .Select(p => new
+                    {
                         Monsters = p.Monsters.Select(m => new Monster
                         {
                             Id = m.Id,
@@ -306,7 +303,7 @@ namespace TpCsharpPoKEKW.Model
             }
         }
 
-   
+
 
 
     }

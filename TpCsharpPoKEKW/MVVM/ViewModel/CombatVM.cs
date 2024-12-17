@@ -17,6 +17,8 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
         public bool talking { get; set; } = false;
         public string MessageBat { get => messageBat; set { SetProperty(ref messageBat, value); OnPropertyChanged(nameof(MessageBat)); } }
 
+        public Spell spellB { get; set; }
+
         private CombatMosnter _monsterA;
         public CombatMosnter MonsterA
         {
@@ -49,6 +51,7 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
 
         public CombatVM()
         {
+            MessageBat = "It's Your turn";
             MonsterA = MonsterCombat;
             MonsterB = GetRandomMonster();
 
@@ -74,7 +77,7 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
             if (spell != null)
             {
                 talking = true;
-                MessageBat = ($"\n\nYou use  {spell.Name}");
+                MessageBat = ($"You use  {spell.Name}");
                 Task.Delay(2000).Wait();
                 //Random entre 0 est 2 pour savoir si cette capa est efficasse
                 int n = random.Next(200);
@@ -107,45 +110,69 @@ namespace TpCsharpPoKEKW.MVVM.ViewModel
                 if (MonsterB.CurentHealth - spell.Damage * n / 100 < 0)
                 {
                     MonsterB.CurentHealth = 0;
+
+                    MessageBox.Show($"You WIN. \n and You gonna be redirected to the main page. \n please play again -_-");
+                    talking = false;
+                    BackHome();
+                    return;
                 }
                 else
                 {
                     MonsterB.CurentHealth -= spell.Damage * n / 100;
                 }
                 OnPropertyChanged(nameof(MonsterB));
+                Task.Delay(2000).Wait();
+                MessageBat = "It's Enemie turn";
+                Task.Delay(2000).Wait();
+                n = random.Next(4);
+                spellB = MonsterB.Spells[n];
+
+                MessageBat = ($"{MonsterB.Name} Use {spellB.Name}");
+
+                Task.Delay(2000).Wait();
+                n = random.Next(200);
+                if (n < 10)
+                {
+                    MessageBat = ($"The monster dodged the attack!\n Damage avoided");
+                    n = 0;
+                }
+                else if (n < 35)
+                {
+                    MessageBat = ($"The attack barely scratched the monster.\n Damage dealt: {spellB.Damage * n / 100}");
+                }
+                else if (n < 75)
+                {
+                    MessageBat = ($"The attack landed, but it wasn't very effective.\n Damage dealt: {spellB.Damage * n / 100}");
+                }
+                else if (n < 125)
+                {
+                    MessageBat = ($"A solid hit! The attack was moderately effective. \n Damage dealt: {spellB.Damage * n / 100}");
+                }
+                else if (n < 175)
+                {
+                    MessageBat = ($"A critical strike! The monster is heavily wounded.\n Damage dealt: {spellB.Damage * n / 100}");
+                }
+                else
+                {
+                    MessageBat = ($"An overwhelming blow! The monster barely stands!\n Damage dealt: {spellB.Damage * n / 100}");
+                }
 
 
+                if (MonsterA.CurentHealth - spellB.Damage * n / 100 < 0)
+                {
+                    MonsterA.CurentHealth = 0;
+                    MessageBox.Show($"You Lose. \n and You gonna be redirected to the main page. \n please try again -_-");
+                    talking = false;
+                    BackHome();
+                    return;
+                }
+                else
+                {
+                    MonsterA.CurentHealth -= spellB.Damage * n / 100;
+                }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                Task.Delay(2000).Wait();
+                MessageBat = "It's Your turn";
 
 
                 talking = false;
