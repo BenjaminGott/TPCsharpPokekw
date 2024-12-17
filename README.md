@@ -23,8 +23,8 @@ Follow these steps to set up and run the project:
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd <project-folder>
+git clone https://github.com/BenjaminGott/TpCsharpPoKEKW.git
+cd TpCsharpPoKEKW
 ```
 
 ### 2. Build and Run the Project
