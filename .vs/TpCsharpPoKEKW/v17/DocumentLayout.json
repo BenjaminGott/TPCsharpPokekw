@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Ynov\\c\\TpCsharpPoKEKW\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|d:\\ynov\\c\\tpcsharppokekw\\tpcsharppokekw\\mvvm\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{ABBBE2C5-2B17-4AA8-BBBF-1D374A56D2D1}|TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj|solutionrelative:tpcsharppokekw\\mvvm\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -134,17 +138,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MainViewVM.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\MainViewVM.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\MainViewVM.cs",
-              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\MainViewVM.cs*",
-              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\ViewModel\\MainViewVM.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\MainViewVM.cs",
+              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\ViewModel\\MainViewVM.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T16:11:29.187Z",
               "IsPinned": true,
@@ -152,7 +156,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "README.MD",
+              "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\README.MD",
+              "RelativeDocumentMoniker": "TpCsharpPoKEKW\\README.MD",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\README.MD",
+              "RelativeToolTip": "TpCsharpPoKEKW\\README.MD",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-12-17T11:28:13.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LoginVM.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\LoginVM.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\LoginVM.cs",
@@ -165,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ListMonsterView.xaml",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\ListMonsterView.xaml",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\ListMonsterView.xaml",
@@ -177,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ExerciceMonsterContext.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Model\\ExerciceMonsterContext.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\Model\\ExerciceMonsterContext.cs",
@@ -190,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ListMonsterVM.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\ListMonsterVM.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\ListMonsterVM.cs",
@@ -203,19 +220,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainView.xaml",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\MainView.xaml",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\MainView.xaml",
-              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\MainView.xaml*",
-              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\View\\MainView.xaml*",
+              "ToolTip": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\MainView.xaml",
+              "RelativeToolTip": "TpCsharpPoKEKW\\MVVM\\View\\MainView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-13T15:50:48.118Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ListSpellVM.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\ListSpellVM.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\ListSpellVM.cs",
@@ -228,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\AssemblyInfo.cs",
@@ -241,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MainWindow.xaml",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MainWindow.xaml",
@@ -253,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DbLogic.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Model\\DbLogic.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\Model\\DbLogic.cs",
@@ -266,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Monster.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Model\\Monster.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\Model\\Monster.cs",
@@ -279,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "TpCsharpPoKEKW.csproj",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\TpCsharpPoKEKW.csproj",
@@ -292,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "BaseVM.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\BaseVM.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\BaseVM.cs",
@@ -305,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LoginView.xaml",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\LoginView.xaml",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\LoginView.xaml",
@@ -317,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainWindowVM.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\MainWindowVM.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\MainWindowVM.cs",
@@ -330,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ListSpellView.xaml",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\ListSpellView.xaml",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\ListSpellView.xaml",
@@ -342,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\App.xaml",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\App.xaml",
@@ -354,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Spell.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Model\\Spell.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\Model\\Spell.cs",
@@ -367,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Login.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Model\\Login.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\Model\\Login.cs",
@@ -380,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ListMonsterView.xaml.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\ListMonsterView.xaml.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\ListMonsterView.xaml.cs",
@@ -393,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ListSpellView.xaml.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\ListSpellView.xaml.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\ListSpellView.xaml.cs",
@@ -406,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "CombatVM.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\CombatVM.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\CombatVM.cs",
@@ -419,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "CombatView.xaml.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\CombatView.xaml.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\CombatView.xaml.cs",
@@ -432,7 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "ListSpellView.g.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\obj\\Debug\\net9.0-windows\\MVVM\\View\\ListSpellView.g.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\obj\\Debug\\net9.0-windows\\MVVM\\View\\ListSpellView.g.cs",
@@ -445,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MainWindow.xaml.cs",
@@ -458,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "MonsterChoiseView.xaml",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\View\\MonsterChoiseView.xaml",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\View\\MonsterChoiseView.xaml",
@@ -470,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "1.png - PNG [103x109, 32\u00A0bits, PNG]",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Assets\\IMG\\1.png",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\Assets\\IMG\\1.png",
@@ -482,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\Model\\Player.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\Model\\Player.cs",
@@ -495,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "MonsterChoiseVM.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\MonsterChoiseVM.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\MonsterChoiseVM.cs",
@@ -508,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "SettingsVM.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\SettingsVM.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\SettingsVM.cs",
@@ -521,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "SigninVM.cs",
               "DocumentMoniker": "D:\\Ynov\\c\\TpCsharpPoKEKW\\TpCsharpPoKEKW\\MVVM\\ViewModel\\SigninVM.cs",
               "RelativeDocumentMoniker": "TpCsharpPoKEKW\\MVVM\\ViewModel\\SigninVM.cs",

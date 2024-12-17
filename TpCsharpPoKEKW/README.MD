@@ -30,8 +30,8 @@ cd <project-folder>
 ### 2. Build and Run the Project
 
 - Open the project in **Visual Studio**.
-- Restore NuGet packages if prompted.
-- Build and run the project.
+- go ..\TpCsharpPoKEKW\bin\Release\net9.0-windows
+- And run the .exe.
 
 ---
 
