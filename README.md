@@ -32,7 +32,7 @@ cd <project-folder>
 - Open the project in **Visual Studio**.
 - go ..\TpCsharpPoKEKW\bin\Release\net9.0-windows
 - And run the .exe.
-
+-Or run like in debug mode 
 ---
 
 ## Database Initialization
